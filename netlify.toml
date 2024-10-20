@@ -6,8 +6,8 @@
 
 # Redirect /docs/SMP to /SMP
 [[redirects]]
-  from = "/docs/SMP/*"
-  to = "/SMP/:splat"
+  from = "https://docs.mbktechstudio.com/docs/SMP/*"
+  to = "https://docs.mbktechstudio.com/SMP/:splat"
   status = 301
  
 
