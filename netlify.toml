@@ -2,14 +2,7 @@
   from = "https://docs-mbktechstudio.netlify.app/*"
   to = "https://docs.mbktechstudio.com/:splat"
   status = 301
-  force = true
-
-[[redirects]]
-  from = "https://docs.mbktechstudio.com/*"
-  to = "https://docs.mbktechstudio.com/:splat"
-  status = 301
-  force = true
-
+  force = true 
 
 #[[redirects]]
 #  from = "https://docs-mbktechstudio.netlify.app/*"
