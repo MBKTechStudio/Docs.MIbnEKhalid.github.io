@@ -4,6 +4,13 @@
   status = 301
   force = true 
 
+# Redirect /docs/SMP to /SMP
+[[redirects]]
+  from = "/docs/SMP/*"
+  to = "/SMP/:splat"
+  status = 301
+ 
+
 #[[redirects]]
 #  from = "https://docs-mbktechstudio.netlify.app/*"
 #  to = "https://project.mbktechstudio.com/:splat"
