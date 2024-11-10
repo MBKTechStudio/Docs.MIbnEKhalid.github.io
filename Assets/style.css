@@ -253,7 +253,7 @@ section .content{
   font-family: 'Poppins', sans-serif;
 }
 .about{  
-  background: url("Images/background.png");
+  background: url("https://mbktechstudio.com/Assets/Images/background.png");
   height: 100%;
 }
 .about .about-details{

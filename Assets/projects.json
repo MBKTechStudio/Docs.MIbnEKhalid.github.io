@@ -3,34 +3,34 @@
         "name": "Centre The Message Cpp",
         "category": ["cpp"],
         "description": "",
-        "link": "https://mbktechstudio.com/CentreTheMessageCpp/"
+        "link": "CentreTheMessageCpp/"
     },
     {
         "imageURL": "Assets/Images/unity.png",
         "name": "Unity Feedback Report System",
         "category": ["unity"],
         "description": "",
-        "link": "https://docs.mbktechstudio.com/quiz-game-cpp-cli/"
+        "link": "Unity-Feedback-Report-System/"
     },
     {
         "imageURL": "Assets/Images/cpp.png",
         "name": "Cpp Quiz Game",
         "category": ["cpp"],
         "description": "My Greatest Achievement Yet",
-        "link": "https://docs.mbktechstudio.com/quiz-game-cpp-cli/"
+        "link": "Quiz-Game-Cpp-CLI/"
     },
     {
         "imageURL": "Assets/Images/mainpage.png",
         "name": "MBK Tech Studio Website",
         "category": ["web"],
         "description": "",
-        "link": "https://docs.mbktechstudio.com/mbktechstudio.com/"
+        "link": "mbktechstudio.com/"
     },
     {
         "imageURL": "Assets/Images/unity.png",
         "name": "SMP (Simple Message Project/Protocol)",
         "category": ["unity"],
         "description": "",
-        "link": "https://docs.mbktechstudio.com/smp/"
+        "link": "smp/"
     }
 ]
