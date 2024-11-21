@@ -128,15 +128,15 @@ nav.sticky .media-icons a:hover{
 
 /* Side Navigation Menu Button CSS */
 nav .menu-btn,
-.navbar .menu .cancel-btn{
-  position: absolute;
-  color: #fff;
-  right: 20px;
-  top: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none;
+.navbar .menu .cancel-btn {
+    position: absolute;
+    color: #fff;
+    right: 10px;
+    top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
 }
 nav .menu-btn{
   color: #377a77;
