@@ -218,6 +218,16 @@ footer {
   }
 }
 
+nav .navbar .media-icons-m {
+    display: none;
+}
+
+nav .navbar .menu .media-icons-m a {
+    font-size: 21px;
+    margin: 0 6px;
+    transition: all 0.3s ease;
+}
+
 @media (max-width: 750px) {
   nav .navbar {
     width: 90%;
@@ -249,6 +259,9 @@ footer {
   }
   nav .navbar .media-icons {
     display: none;
+  }
+  nav .navbar .media-icons-m {
+    display: flex;
   }
   nav .menu-btn,
   .navbar .menu .cancel-btn {
