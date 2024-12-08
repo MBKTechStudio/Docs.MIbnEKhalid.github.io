@@ -286,7 +286,8 @@ nav .navbar .menu .media-icons-m a {
     margin: 14px 0;
 }
 
-.home .button button {
+.home .button button,
+.button .a-button {
     outline: none;
     padding: 8px 16px;
     border-radius: 6px;
@@ -299,7 +300,8 @@ nav .navbar .menu .media-icons-m a {
     transition: all 0.4s ease;
 }
 
-.home .button button:hover {
+.home .button button:hover,
+.button .a-button:hover {
     border-color: #377a77;
     background-color: #fff;
     color: #377a77;
@@ -413,7 +415,8 @@ section .button {
     margin: 16px 0;
 }
 
-section .button button {
+section .button button,
+.button .a-button {
     outline: none;
     padding: 8px 16px;
     border-radius: 4px;
@@ -426,7 +429,8 @@ section .button button {
     transition: all 0.4s ease;
 }
 
-section .button button:hover {
+section .button button:hover,
+.button .a-button:hover {
     border-color: #377a77;
     background-color: #f0f8ff;
     color: #377a77;
@@ -709,14 +713,16 @@ section .title span::after {
     border-radius: 12px;
 }
 
-section .button {
+section .button,
+.button .a-button {
     margin: 0px 0;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-section .button button {
+section .button button,
+.button .a-button {
     outline: none;
     padding: 6px 12px;
     border-radius: 4px;
@@ -730,7 +736,8 @@ section .button button {
     transition: all 0.4s ease;
 }
 
-section .button button:hover {
+section .button button:hover,
+.button .a-button:hover {
     transition: all 0.4s ease;
     border-color: #377a77;
     background-color: #f0f8ff;

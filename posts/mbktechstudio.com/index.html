@@ -10,7 +10,7 @@
          const availabilityDate = "September or Letter";
          const repoLink = "https://github.com/MIbnEKhalid/MIbnEKhalid.github.io/";
          const pageTitle = `Documentation of ${projectName}`;
-         const repoLink_PROJECT_NAME_Support = "MIbnEKhalidWeb";
+         const repoLink_PROJECT_NAME_Support = "?Project=MIbnEKhalidWeb";
 
          try {
             // Fetch the template HTML
@@ -23,7 +23,7 @@
                .replace('{{PROJECT_NAME}}', projectName)
                .replace('{{AVAILABILITY_DATE}}', availabilityDate)
                .replace('{{REPO_LINK}}', repoLink)
-               .replace('{{PROJECT_NAME_Support}}', repoLink_PROJECT_NAME_Support);
+               .replace(/{{PROJECT_NAME_Support}}/g, repoLink_PROJECT_NAME_Support);
 
             // Inject the processed HTML into the current document
             document.open();

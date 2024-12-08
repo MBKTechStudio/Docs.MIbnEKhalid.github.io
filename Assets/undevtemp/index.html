@@ -203,6 +203,7 @@
     </nav>
 
 </header>
+
 <div id="cookie"></div>
 
 <body>
@@ -224,47 +225,46 @@
                     class="links" href="{{REPO_LINK}}" target="_blank">Source Code</a> Is Available.
             </p>
             <h4>Expected Availability: <span style="font-weight: 500;"
-                    id="availability-date">{{AVAILABILITY_DATE}}</span></h4>
+                    id="availability-date">{{AVAILABILITY_DATE}}</span>
+            </h4>
             <h4>
                 Need the Documentation but It's Delayed? Here's What to Do
-                <div class="hs"><a onclick="shb()">Show</a></div>
+                <div class="hs"><a class="links" onclick="shb()">Show</a></div>
             </h4>
 
             <div id="bully" class="contact-box">
                 <div class="Delayed">
                     <div onclick="hhb()" class="close-btn"></div>
-                    <div class="title"><span>Need The Documentation of The Project But It's Delayed? Here's What to
-                            Do</span> </div>
+                    <div class="title">
+                        <span>Need The Documentation of The Project But It's Delayed? Here's What to Do</span>
+                    </div>
                     <ul style="text-align: left;">
                         <li>
-                            <h3>Submit a Request on the Documentation Page</h3>
+                            <h3>Submit a Request via the Support Page</h3>
                         </li>
-                        If you're looking for documentation for a specific project (e.g.,
-                        docs.mbktechstudio.com/project1), use the contact form on that page to let me know.
-                        <li>
-                            <h3>Main Contact Form</h3>
-                        </li>
-                        If the documentation page doesn't exist yet, please submit a request through the contact form on
-                        the main site:
-                        <div class="hs"><a href="https://mbktechstudio.com/#contact"
-                                target="_blank">mbktechstudio.com</a></div>
-                        .
+                        If you need documentation for a specific project and its not available yet, or if
+                        the page doesn’t exist yet, please use the contact form on our main support page: <a
+                            href="https://mbktechstudio.com/Support/{{PROJECT_NAME_Support}}" class="links"
+                            target="_blank">mbktechstudio.com/Support/</a>
                         <li>
                             <h3>Reach Out on Social Media</h3>
                         </li>
-                        You can also contact me on through Social Media (Instagram Prefred).
+                        Feel free to reach out through social media. Instagram is preferred, but we're also available on
+                        other platforms.
                         <div class="media-icons">
-                            <a href="https://www.facebook.com/people/MBK-Tech-Studio/61559079077988/" target="_blank"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a href="https://x.com/ibnekhalid28" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a href="https://instagram.com/mbktech.studios" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
-                            <a href="https://github.com/MIbnEKhalid" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/people/MBK-Tech-Studio/61559079077988/" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
                             <a href="https://www.linkedin.com/in/muhammad-bin-khalid-89711b25b" target="_blank"><i
                                     class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/ibnekhalid28" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/MIbnEKhalid" target="_blank"><i class="fab fa-github"></i></a>
                             <a href="https://youtube.com/@mibnekhalid" target="_blank"><i
                                     class="fab fa-youtube"></i></a>
-                            <a href="https://discord.gg/MUAyAeckrM" target="_blank"><i class="fab fa-discord"></i></a>
+                            <a href="https://discord.gg/" target="_blank"><i class="fab fa-discord"></i></a>
+                            <a href="https://signal.me/#eu/0Bxn3qmtp8gtYNuy6eJ_F3WaHWHrQW3uefaC2y01VCWtduFQCwJHvIFL6N4VOtsv"
+                                target="_blank"><i class="fa-brands fa-signal-messenger"></i></a>
                         </div>
                         <li>
                             <h3>Need a Faster Response?</h3>
@@ -276,10 +276,11 @@
 
             <div class="button field is-grouped" style="display: flex; justify-content: center;">
                 <div class="control">
-                    <button class="button is-primary" onclick="openSupportLink()">Contact Form</button>
+                    <a class="button is-primary a-button" target="_blank"
+                        href="https://mbktechstudio.com/Support/{{PROJECT_NAME_Support}}">Contact Form</a>
                 </div>
             </div>
-
+            <br>
         </div>
     </section>
 </body>
@@ -304,11 +305,6 @@
 
 <!--Form Submission-->
 <script>
-    function openSupportLink(ProjectName) {
-        window.open(`https://mbktechstudio.com/Support/?Project={{PROJECT_NAME_Support}}`, '_blank');
-     }
- 
-
     function shb() {
         document.getElementById('bully').classList.add('show');
     }

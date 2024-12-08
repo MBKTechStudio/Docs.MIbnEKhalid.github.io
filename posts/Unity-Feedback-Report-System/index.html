@@ -8,10 +8,9 @@
        
           const  projectName = "Unity Feedback Report System";
           const availabilityDate = "January 2024";
-          const repoLink = "https://github.com/MIbnEKhalid/cpptool/";
-       
+          const repoLink = "https://github.com/MIbnEKhalid/";
           const pageTitle = `Documentation of ${projectName}`;
-
+          const repoLink_PROJECT_NAME_Support = " ";
          try {
             // Fetch the template HTML
             const response = await fetch('../../Assets/undevtemp/');
@@ -22,7 +21,8 @@
                .replace('{{PAGE_TITLE}}', pageTitle)
                .replace('{{PROJECT_NAME}}', projectName)
                .replace('{{AVAILABILITY_DATE}}', availabilityDate)
-               .replace('{{REPO_LINK}}', repoLink);
+               .replace('{{REPO_LINK}}', repoLink)
+               .replace(/{{PROJECT_NAME_Support}}/g, repoLink_PROJECT_NAME_Support);
 
             // Inject the processed HTML into the current document
             document.open();
