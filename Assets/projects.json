@@ -32,5 +32,19 @@
         "category": ["unity"],
         "description": "",
         "link": "smp/"
+    },
+    {
+        "imageURL": "Assets/Images/unity.png",
+        "name": "DeployStatus",
+        "category": ["node,js,express"],
+        "description": "Web page to monitor the status of deployments of GitHub Pages, Netlify & Vercel.",
+        "link": "smp/"
+    },
+    {
+        "imageURL": "Assets/Images/unity.png",
+        "name": "Github Readme Deploy Status",
+        "category": ["node,js,express"],
+        "description": "Display the deployment status of your GitHub, Netlify, or Vercel projects in README files with customizable status badges.",
+        "link": "smp/"
     }
 ]
