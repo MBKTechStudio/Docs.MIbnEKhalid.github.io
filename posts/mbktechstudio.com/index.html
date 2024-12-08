@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="UTF-8">
+   <script>
+      document.addEventListener('DOMContentLoaded', async () => {
+
+         const projectName = "MBK Tech Studio Website";
+         const availabilityDate = "September or Letter";
+         const repoLink = "https://github.com/MIbnEKhalid/MIbnEKhalid.github.io/";
+         const pageTitle = `Documentation of ${projectName}`;
+         const repoLink_PROJECT_NAME_Support = "MIbnEKhalidWeb";
+
+         try {
+            // Fetch the template HTML
+            const response = await fetch('../../Assets/undevtemp/');
+            const templateHtml = await response.text();
+
+            // Replace placeholders with project-specific data
+            const processedHtml = templateHtml
+               .replace('{{PAGE_TITLE}}', pageTitle)
+               .replace('{{PROJECT_NAME}}', projectName)
+               .replace('{{AVAILABILITY_DATE}}', availabilityDate)
+               .replace('{{REPO_LINK}}', repoLink)
+               .replace('{{PROJECT_NAME_Support}}', repoLink_PROJECT_NAME_Support);
+
+            // Inject the processed HTML into the current document
+            document.open();
+            document.write(processedHtml);
+            document.close();
+         } catch (error) {
+            console.error('Error loading template:', error);
+         }
+      });
+   </script>
+</head>
+
+<body>
+   <!-- This body will be replaced dynamically -->
+</body>
+
+</html>

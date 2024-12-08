@@ -3,48 +3,48 @@
         "name": "Centre The Message Cpp",
         "category": ["cpp"],
         "description": "",
-        "link": "CentreTheMessageCpp/"
+        "link": "/posts/CentreTheMessageCpp/"
     },
     {
         "imageURL": "Assets/Images/unity.png",
         "name": "Unity Feedback Report System",
         "category": ["unity"],
         "description": "",
-        "link": "Unity-Feedback-Report-System/"
+        "link": "/posts/Unity-Feedback-Report-System/"
     },
     {
         "imageURL": "Assets/Images/cpp.png",
         "name": "Cpp Quiz Game",
         "category": ["cpp"],
         "description": "",
-        "link": "Quiz-Game-Cpp-CLI/"
+        "link": "/posts/Quiz-Game-Cpp-CLI/"
     },
     {
         "imageURL": "Assets/Images/mainpage.png",
         "name": "MBK Tech Studio Website",
         "category": ["web"],
         "description": "",
-        "link": "mbktechstudio.com/"
+        "link": "/posts/mbktechstudio.com/"
     },
     {
         "imageURL": "Assets/Images/unity.png",
         "name": "SMP (Simple Message Project/Protocol)",
         "category": ["unity"],
         "description": "",
-        "link": "smp/"
+        "link": "/posts/smp/"
     },
     {
         "imageURL": "Assets/Images/unity.png",
         "name": "DeployStatus",
         "category": ["node,js,express"],
         "description": "Web page to monitor the status of deployments of GitHub Pages, Netlify & Vercel.",
-        "link": "smp/"
+        "link": "/posts/DeployStatus/"
     },
     {
         "imageURL": "Assets/Images/unity.png",
         "name": "Github Readme Deploy Status",
         "category": ["node,js,express"],
         "description": "Display the deployment status of your GitHub, Netlify, or Vercel projects in README files with customizable status badges.",
-        "link": "smp/"
+        "link": "/posts/Github-Readme-Deploy-Status/"
     }
 ]
