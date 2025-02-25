@@ -122,7 +122,7 @@ nav.sticky .menu-btn {
 }
 
 .logo img {
-  width: 100%;
+  width: 12%;
   height: 100%;
   float: left;
 }
@@ -188,39 +188,32 @@ nav.sticky .media-icons a {
   color: #fff;
 }
 
+
+nav .menu-btn {
+  top: 25px;
+}
 @media(max-width: 400px) {
   nav .navbar .logo a {
       font-size: 33px;
   }
   .logo img {
-      width: 95%;
-      height: 95%;
+      width: 11.3%;
+      height: 100%;
+  }
+  nav .menu-btn {
+      top: 22px;
   }
 }
-
-@media(max-width: 376px) {
+@media(max-width: 350px) {
   nav .navbar .logo a {
-      font-size: 28px;
+      font-size: 27px;
   }
   .logo img {
-      width: 87%;
-      height: 87%;
-  } 
-  nav .menu-btn{
-      top: 25px;
+      width: 11%;
+      height: 100%;
   }
-}
-
-@media(max-width: 339px) {
-  nav .navbar .logo a {
-      font-size: 26px;
-  }
-  .logo img {
-      width: 85%;
-      height: 85%;
-  }   
-  nav .menu-btn{
-      top: 23px;
+  nav .menu-btn {
+      top: 20px;
   }
 }
 
